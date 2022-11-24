@@ -13,6 +13,7 @@ You can interact with the server over by connecting with a ZeroMQ request socket
 
 - AUTH <nickname>: Try to authenticate using existing account, refreshing all tokens beforehand (to ensure that the client can spend as much time being connected to the game server as possible).
     Reply: OK <new_nickname> / NOACC / ERR
+    
     NOACC - No account found bearing that nickname
 
 - JOIN <nickname> <serverHash>: Authenticate a Minecraft client joining an online server, doesn't refresh any tokens
