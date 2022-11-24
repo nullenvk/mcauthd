@@ -2,6 +2,7 @@
 
 ## How to run it?
 First run: `python3 -m mcauthd -d db_file.json -i OAUTH_CLIENT_ID tcp://*:5555`
+
 Normal run: `python3 -m mcauthd -d db_file.json tcp://*:5555`
 
 ## RPC
